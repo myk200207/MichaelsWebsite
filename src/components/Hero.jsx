@@ -4,27 +4,27 @@ import {Button} from '@/components/ui/button'
 
 const Hero = () => {
     return (
-        <>
-            <div className="flex w-screen justify-center item-center">
-                <div>
-                    <img src={ProfilePic} alt="" className='flex-1'/>
-                </div>
-                <div className='bg-black text-white flex flex-col justify-center items-center text-center py-16 flex-1'>
-                    <p>
-                        <span>Michael Kim</span>
-                    </p>
-                    <p>
-                        Hi! So glad you're here.
-                            Welcome to my page!
-                            Click Next to see the rest of my site!
-                    </p>
-                    <Button>Button</Button>
-
-                </div>
+      <>
+        <section className="h-screen">
+          <div className="bg-themeFirstColor flex w-screen h-screen justify-center item-center">
+            <div>
+              <img src={ProfilePic} alt="" className="flex-1" />
             </div>
-
-        </>
-    )
+            <div className="bg-themeFirstColor text-white flex flex-col justify-center items-center text-center py-16 flex-1">
+              <h1 className="text-4xl ">Michael Kim</h1>
+              <p>
+                Software Engineer
+                <br />
+                Full-Stack Developer
+                <br />
+                AI/ML
+              </p>
+              <Button>View Portfolio</Button>
+            </div>
+          </div>
+        </section>
+      </>
+    );
 }
 
 export default Hero

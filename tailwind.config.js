@@ -52,8 +52,13 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
-  		}
+  			},
+			  themeFirstColor : '#8F7E4F',//'#e6f7ff',
+			  themeSecondColor : '#212529',
+			  themeTextColor : '#CCDEEF',
+			
+  		},
+		  
   	}
   },
   plugins: [require("tailwindcss-animate")],
