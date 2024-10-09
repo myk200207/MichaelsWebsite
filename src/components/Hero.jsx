@@ -8,7 +8,11 @@ const Hero = () => {
         <section className="h-screen">
           <div className="bg-themeFirstColor flex w-screen h-screen justify-center item-center">
             <div>
-              <img src={ProfilePic} alt="" className="flex-1" />
+              <Avatar>
+              <AvatarImage src={ProfilePic} alt="" />
+              <AvatarFallback>Profile Pic</AvatarFallback>
+              </Avatar>
+              //<img src={ProfilePic} alt="" className="flex-1" />
             </div>
             <div className="bg-themeFirstColor text-white flex flex-col justify-center items-center text-center py-16 flex-1">
               <h1 className="text-4xl ">Michael Kim</h1>
@@ -17,7 +21,7 @@ const Hero = () => {
                 <br />
                 Full-Stack Developer
                 <br />
-                AI/ML
+                AI/ML Grad Student
               </p>
               <Button>View Portfolio</Button>
             </div>

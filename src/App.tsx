@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { NavBar, Hero, About } from './components';
+import { NavBar, Hero, About,Skills } from './components';
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
     <NavBar/>
     <Hero/>
     <About/>
+    <Skills/>
    </div>
   )
 }

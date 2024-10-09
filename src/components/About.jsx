@@ -17,9 +17,9 @@ const About = () => {
             </span>
           </p>
           <p>
-            I am currently employed as a government contractor as a full-stack
-            developer and am attending Georgia Tech's OMSCS focused on AI/ML and
-            humanoid studies.
+            I am currently employed as a government contractor working as a
+            full-stack developer, and I am attending Georgia Tech's Master's
+            program focused on AI/ML and humanoid studies.
           </p>
         </div>
         <div className="flex flex-col flex-1 justify-center items-center">
