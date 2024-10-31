@@ -1,5 +1,5 @@
 import React from 'react'
-import secondphoto from '../assets/secondphoto.jpg'
+import ProfilePic from '../assets/ProfilePic.jpg'
 const About = () => {
   return (
     <>
@@ -24,8 +24,7 @@ const About = () => {
         </div>
         <div className="flex flex-col flex-1 justify-center items-center">
           <img
-            className="object-cover h-60 w-60 rounded-full"
-            src={secondphoto}
+            src={ProfilePic}
             alt=""
           />
         </div>
