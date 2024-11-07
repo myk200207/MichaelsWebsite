@@ -3,7 +3,7 @@ import ProfilePic from '../assets/ProfilePic.jpg'
 const About = () => {
   return (
     <>
-      <section class="h-screen flex flex-row text-center">
+      <section className="h-screen flex flex-row text-center">
         <div className="flex flex-col flex-1 w-10 justify-center items-center">
           <h1 className="text-3xl font-bold mb-4">Michael Kim</h1>
           <p className="mb-2">
