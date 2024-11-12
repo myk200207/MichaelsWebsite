@@ -8,13 +8,15 @@ const NavBar = () => {
                 Michael
             </div>
             <div className ='space-x-6'>
-                <a href="#" className='hover:text-gray-400'>Home</a>
-                <a href="#" className='hover:text-gray-400'>About Me</a>
-                <a href="#" className='hover:text-gray-400'>Projects</a>
-                <a href="#" className='hover:text-gray-400'>Home</a>
+                <a href="#LandingPage" className='hover:text-gray-400'>Home</a>
+                <a href="#AboutPage" className='hover:text-gray-400'>About Me</a>
+                <a href="#SkillPage" className='hover:text-gray-400'>Skills</a>
+                <a href="#ExperiencePage" className='hover:text-gray-400'>Projects</a>
+                <a href="#ProjectPage" className='hover:text-gray-400'>Projects</a>
+                <a href="#ContactPage" className='hover:text-gray-400'>Contact</a>
             </div>
             <button className ='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300
-            hover:scale-105 px-4 py-2 rounded-full'>Connect Me</button>
+            hover:scale-105 px-4 py-2 rounded-full'>Resume</button>
         </div>
     </nav>
   )

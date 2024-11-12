@@ -35,7 +35,7 @@ const Contact = () => {
   };
   return (
     <section
-      id="contact "
+      id="ContactPage"
       className="bg-themeSecondColor text-white h-auto min-h-screen"
     >
       <div className="container">

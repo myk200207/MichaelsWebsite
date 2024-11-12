@@ -6,7 +6,7 @@ import timelineElements from '../assets/timelineElements';
 export default function Experience({defaultColor}) {
   return (
     <>
-      <section className="flex flex-col justify-center items-center bg-gray-900 text-white text-base sm:text-lg">
+      <section id = "ExperiencePage" className="flex flex-col justify-center items-center bg-gray-900 text-white text-base sm:text-lg">
        <div className="text-white flex flex-col justify-center items-center py-20 ">
           <h1 className="font-bold text-5xl">Timeline</h1>
           <br />
