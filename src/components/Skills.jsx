@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const Skills = () => {
   return (
     <>
-      <section className="flex flex-col flex-wrap h-auto min-h-screen bg-themeSecondColor text-center text-white justify-start items-center gap-4" id="SkillPage">
+      <section className="flex flex-col flex-wrap h-auto min-h-screen  text-center text-white justify-start items-center gap-4" id="SkillPage">
         <div className="my-20">
           <h1 className="font-bold text-5xl">Skills</h1>
           <br/>

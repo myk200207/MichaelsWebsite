@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <nav className = 'bg-themeSecondColor sticky top-0 text-white px-8 md:px-16 flex justify-center z-50' style={{}}>
+    <nav className = ' sticky top-0 text-white px-8 md:px-16 flex justify-center z-50' >
         <div className ='w-screen py-3 flex justify-center md:justify-between items-center '>
             <div className = 'text-white text-2xl font-montserrat hidden md:inline'>
                 Michael
