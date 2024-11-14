@@ -9,9 +9,9 @@ const NavBar = () => {
             </div>
             <div className ='space-x-6'>
                 <a href="#LandingPage" className='hover:text-gray-400'>Home</a>
-                <a href="#AboutPage" className='hover:text-gray-400'>About Me</a>
+                <a href="#AboutPage" className='hover:text-gray-400'>About</a>
                 <a href="#SkillPage" className='hover:text-gray-400'>Skills</a>
-                <a href="#ExperiencePage" className='hover:text-gray-400'>Projects</a>
+                <a href="#ExperiencePage" className='hover:text-gray-400'>Experience</a>
                 <a href="#ProjectPage" className='hover:text-gray-400'>Projects</a>
                 <a href="#ContactPage" className='hover:text-gray-400'>Contact</a>
             </div>

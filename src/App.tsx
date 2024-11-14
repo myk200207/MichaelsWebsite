@@ -10,7 +10,7 @@ import { NavBar, Hero, About,Skills,Experience,Projects,Contact} from './compone
 function App() {
 
   return (
-   <div style={{backgroundImage: `url(${backgroundImage}`, backgroundSize:'cover', backgroundPosition:'center', backgroundAttachment: 'fixed' ,imageRendering:'auto' }}>
+   <div className="text-white"style={{backgroundImage: `url(${backgroundImage}`, backgroundSize:'cover', backgroundPosition:'center', backgroundAttachment: 'fixed' ,imageRendering:'auto' }}>
     <NavBar/>
     <Hero/>
     <About/>

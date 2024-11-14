@@ -1,12 +1,17 @@
+
+import military from '../assets/USAF.jpg'
+import spa from '../assets/spa.png'
+import uva from '../assets/uva.png'
+
 const timelineElements = [
     {
       id: 1,
       title: "United States Air Force",
-      location: "Omaha, Nebraska",
-      description: "Served as a medic for 55th Medical Group",
+      location: "Omaha, Nebraska & Doha,Qatar",
+      description: "I served as a medic for 55th Medical Group and 367th Expeditionary Group",
       buttonText: "Details",
       date: "2017 - 2021",
-      icon: "military",
+      icon: military,
       color: "blue",
       tech: [],
     },
@@ -14,10 +19,10 @@ const timelineElements = [
       id: 2,
       title: "University of Virginia",
       location: "Charlottesville, Virginia",
-      description: "Completed Bachelor of Computer Science",
+      description: "I completed the Bachelor of Computer Science at UVA in two years",
       buttonText: "",
       date: "2021 - 2023",
-      icon: "school",
+      icon: uva,
       color: "purple",
       tech: ["JavaScript", "Java"," Python","HTML/CSS", "Node.js", "SQL", "and more"],
     },
@@ -25,10 +30,10 @@ const timelineElements = [
       id: 3,
       title: "System Planning and Analysis",
       location: "Alexandria, Virginia",
-      description: "Hired as a full-stack developer for SPA",
+      description: "I was hired as a full-stack developer for SPA",
       buttonText: "Details",
       date: "2023 - present",
-      icon: "work",
+      icon: spa,
       color: "yellow",
       tech: ["ASP.Net", "EntityFramework", "C#", "JavaScript", "Bootstrap", "Typescript", "HTML/CSS","SQL", "and more"],
     },

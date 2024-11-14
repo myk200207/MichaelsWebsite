@@ -4,14 +4,14 @@ import Carousel from 'react-bootstrap/Carousel';
 const Skills = () => {
   return (
     <>
-      <section className="flex flex-col flex-wrap h-auto min-h-screen  text-center text-white justify-start items-center gap-4" id="SkillPage">
+      <section className="flex flex-col flex-wrap h-auto min-h-screen  text-center text-white justify-start items-center gap-4 2xl:px-32" id="SkillPage">
         <div className="my-20">
           <h1 className="font-bold text-5xl">Skills</h1>
           <br/>
           <div >Heer are a few of my skills</div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
           <div className="p-2">
             <div className="flex-1 flex flex-row">
               <div className="px-6">
@@ -150,8 +150,10 @@ const Skills = () => {
               </div>
               <div>
                 <p className="px-10">
-                  Most of my work entailed customizing websites with css along
-                  with bootstraps and tailwind.
+                 I saw the use and the power behind css, and learning it intrigued me because there were so many ways to create and modify the front-end using css. 
+                 There are numerous and facinating properties to learn and they are all facinating. Most of my work entailed customizing websites with css along
+                 with bootstraps and tailwind. 
+                  
                 </p>
               </div>
             </div>
@@ -175,9 +177,8 @@ const Skills = () => {
               </div>
               <div>
                 <p className="px-6">
-                  This personal website and another project called maestro was
-                  created using react and react native, that is for android and
-                  ios applications.
+                    React was one of my first frameworks I wanted to learn because of the ease of developing an application using this component-based UI framework, and also it is widely accepted and used among multiple companies. I have developed this personal website using
+                    react and developed an IOS/Android app using expo and react-native.  
                 </p>
               </div>
             </div>

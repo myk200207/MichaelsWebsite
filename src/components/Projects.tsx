@@ -24,18 +24,18 @@ const Projects = () => {
           <p>My journey</p>
         </div>
     
-        <div className="grid grid-cols-[auto] sm:grid-cols-[auto_auto] lg:grid-cols-[auto_auto_auto] justify-center items-center" >
+        <div className="grid grid-cols-[auto] sm:grid-cols-[auto_auto] lg:grid-cols-[auto_auto_auto] justify-center items-center gap-1" >
          <a className=""onClick={ () => handleShow("UVA UTS Bus Route", "I was able to develop an command-line user interface that allowed users to search for buses to reach certain stops."
-         +" From UVA's transit website, I was able to download a JSON file of the UVA buses, stops, and routes and implement my logic to develop this app.", "https://github.com/myk200207/UVA-busline")}  ><img  className="w-60 h-60 object-cover"   src={UvaUTS}/></a>
-         <a onClick={ () => handleShow("Gameplay", "test", "")} href="#portfolio1" ><img  className="w-60 h-60 object-cover"  src={UvaUTS}/></a>
+         +" From UVA's transit website, I was able to download a JSON file of the UVA buses, stops, and routes and implement my logic to develop this app.", "https://github.com/myk200207/UVA-busline")}  ><img  className=" rounded-md w-60 h-60 object-cover"   src={UvaUTS}/></a>
+         <a className=""onClick={ () => handleShow("Gameplay", "test", "")} href="#portfolio1" ><img  className="rounded-md  w-60 h-60 object-cover"  src={UvaUTS}/></a>
          <a className=""onClick={ () => handleShow("UVA UTS Bus Route", "I was able to develop an command-line user interface that allowed users to search for buses to reach certain stops."
-         +" From UVA's transit website, I was able to download a JSON file of the UVA buses, stops, and routes and implement my logic to develop this app.", "https://github.com/myk200207/UVA-busline")}  ><img  className="w-60 h-60 object-cover" src={UvaUTS}/></a>
+         +" From UVA's transit website, I was able to download a JSON file of the UVA buses, stops, and routes and implement my logic to develop this app.", "https://github.com/myk200207/UVA-busline")}  ><img  className=" rounded-md w-60 h-60 object-cover" src={UvaUTS}/></a>
          <a className=""onClick={ () => handleShow("UVA UTS Bus Route", "I was able to develop an command-line user interface that allowed users to search for buses to reach certain stops."
-         +" From UVA's transit website, I was able to download a JSON file of the UVA buses, stops, and routes and implement my logic to develop this app.", "https://github.com/myk200207/UVA-busline")}  ><img  className="w-60 h-60 object-cover"   src={UvaUTS}/></a>
+         +" From UVA's transit website, I was able to download a JSON file of the UVA buses, stops, and routes and implement my logic to develop this app.", "https://github.com/myk200207/UVA-busline")}  ><img  className="rounded-md  w-60 h-60 object-cover"   src={UvaUTS}/></a>
           <a className=""onClick={ () => handleShow("UVA UTS Bus Route", "I was able to develop an command-line user interface that allowed users to search for buses to reach certain stops."
-         +" From UVA's transit website, I was able to download a JSON file of the UVA buses, stops, and routes and implement my logic to develop this app.", "https://github.com/myk200207/UVA-busline")}  ><img  className="w-60 h-60 object-cover"  src={UvaUTS}/></a>
+         +" From UVA's transit website, I was able to download a JSON file of the UVA buses, stops, and routes and implement my logic to develop this app.", "https://github.com/myk200207/UVA-busline")}  ><img  className="rounded-md  w-60 h-60 object-cover"  src={UvaUTS}/></a>
           <a className=""onClick={ () => handleShow("UVA UTS Bus Route", "I was able to develop an command-line user interface that allowed users to search for buses to reach certain stops."
-         +" From UVA's transit website, I was able to download a JSON file of the UVA buses, stops, and routes and implement my logic to develop this app.", "https://github.com/myk200207/UVA-busline")}  ><img   className="w-60 h-60 object-cover"  src={UvaUTS}/></a>
+         +" From UVA's transit website, I was able to download a JSON file of the UVA buses, stops, and routes and implement my logic to develop this app.", "https://github.com/myk200207/UVA-busline")}  ><img   className="rounded-md w-60 h-60 object-cover"  src={UvaUTS}/></a>
 
           
         </div>
