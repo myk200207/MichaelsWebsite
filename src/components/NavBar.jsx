@@ -1,25 +1,101 @@
-import React from 'react'
+import React,{useState} from 'react'
+import resume from '../assets/resume.pdf'
 
 const NavBar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const toggleMenu = () =>{
+    setIsMenuOpen(!isMenuOpen)
+  }
+
   return (
-    <nav className = ' sticky top-0 text-white px-8 md:px-16 flex justify-center z-50' >
-        <div className ='w-screen py-3 flex justify-center md:justify-between items-center '>
-            <div className = 'text-white text-2xl font-montserrat hidden md:inline'>
-                Michael
-            </div>
-            <div className ='space-x-6'>
-                <a href="#LandingPage" className='hover:text-gray-400'>Home</a>
-                <a href="#AboutPage" className='hover:text-gray-400'>About</a>
-                <a href="#SkillPage" className='hover:text-gray-400'>Skills</a>
-                <a href="#ExperiencePage" className='hover:text-gray-400'>Experience</a>
-                <a href="#ProjectPage" className='hover:text-gray-400'>Projects</a>
-                <a href="#ContactPage" className='hover:text-gray-400'>Contact</a>
-            </div>
-            <button className ='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300
-            hover:scale-105 px-4 py-2 rounded-full'>Resume</button>
+    <nav className="sticky top-0 text-white px-8 md:px-16 flex justify-center z-50">
+      <div className="w-screen py-3 flex justify-end md:justify-between items-center">
+        <div className="text-white text-2xl font-montserrat hidden md:inline">
+          Michael
         </div>
+
+        
+        <div className="hidden md:block space-x-6">
+          <a href="#LandingPage" className="hover:text-black ">
+            Home
+          </a>
+          <a href="#AboutPage" className="hover:text-black">
+            About
+          </a>
+          <a href="#SkillPage" className="hover:text-black">
+            Skills
+          </a>
+          <a href="#ExperiencePage" className="hover:text-black">
+            Experience
+          </a>
+          <a href="#ProjectPage" className="hover:text-black">
+            Projects
+          </a>
+          <a href="#ContactPage" className="hover:text-black">
+            Contact
+          </a>
+        </div>
+        <a
+          href={resume}
+          target="_blank"
+          className="bg-transparent text-white hidden md:inline transform transition-transform duration-300 cursor-pointer "
+        >
+          Resume
+        </a>
+        <div className="md:hidden flex flex-col items-center w-20 z-10 ">
+          <button onClick={toggleMenu} className="text-white ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              className="w-8 h-8"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+          <div
+          className={`md:hidden ${
+            isMenuOpen ? "block" : "hidden"
+          }  absolute bg-transparent flex flex-col text-center top-16 gap-2 z-20 transition-transform duration-300 ease-in-out transform ${isMenuOpen? 'translate-x-0':'translate-x-full'}`}
+        >
+          <a href="#LandingPage" className="block hover:text-black">
+            Home
+          </a>
+          <a href="#AboutPage" className="block hover:text-black">
+            About
+          </a>
+          <a href="#SkillPage" className="block hover:text-black">
+            Skills
+          </a>
+          <a href="#ExperiencePage" className="block hover:text-black">
+            Experience
+          </a>
+          <a href="#ProjectPage" className="block hover:text-black">
+            Projects
+          </a>
+          <a href="#ContactPage" className="block hover:text-black">
+            Contact
+          </a>
+          <a
+            href={resume}
+            download
+            target="_blank"
+            className="block text-white hover:text-black"
+          >
+            Resume
+          </a>
+        </div>
+        </div>
+        
+      </div>
     </nav>
-  )
+  );
 }
 
 export default NavBar

@@ -93,8 +93,9 @@ const Contact = () => {
             </div>
             <br/>
             <div className="form-group flex justify-center ">
+           
               <input
-                className="bg-blue-600 form-control text-white border-blue-600 font-bold w-[50%]"
+                className="cursor-pointer hover:scale-110 transition-transform duration-300 ease-in-out bg-transparent form-control text-white border-white font-bold w-[auto]"
                 type="submit"
                 value="Send"
               />
