@@ -1,8 +1,5 @@
 import React from 'react'
-import secondphoto from '../assets/secondphoto.jpg'
-import {Button} from '@/components/ui/button'
-import Image from 'react-bootstrap/Image'
-import backgroundImage from '../assets/backgroundimage3.jpg'
+
 import ProfilePic from '../assets/ProfilePic2.JPG'
 
 const Hero = () => {
