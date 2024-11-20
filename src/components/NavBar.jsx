@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import resume from '../assets/resume.pdf'
+import resume from '@/assets/resume.pdf'
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
