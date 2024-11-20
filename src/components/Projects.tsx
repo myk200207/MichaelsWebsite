@@ -1,4 +1,4 @@
-import React , {useState} from 'react'
+import  {useState} from 'react'
 import UvaUTS from '../assets/UvaUTS.png';
 import MyModal from './Modal.jsx'; 
 import congress from '../assets/congress.jpg';
