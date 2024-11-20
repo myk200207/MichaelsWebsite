@@ -20,7 +20,7 @@ const Projects = () => {
   const handleClose = () => {setModalShow(false)}
  
   return (
-    <section className="h-auto min-h-screen p-20" id="ProjectPage">
+    <section className="h-auto min-h-screen p-20 mt-40" id="ProjectPage">
       <div className="container text-center flex flex-col gap-5">
         <div className="flex flex-col justify-center items-center">
           <h1 className="font-bold text-5xl">Projects</h1>
