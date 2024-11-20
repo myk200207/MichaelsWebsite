@@ -16,6 +16,7 @@ function App() {
     <Experience defaultColor = "bg-cyan-500"/>
     <Projects/>
     <Contact/>
+    
    </div>
   )
 }
