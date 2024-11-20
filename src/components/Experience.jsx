@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import timelineElements from '@/assets/timelineElements';
+import timelineElements from '../assets/timelineElements';
 
 export default function Experience({defaultColor}) {
   return (

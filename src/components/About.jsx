@@ -1,5 +1,5 @@
 
-import AboutMePhoto from '@/assets/aboutme.jpg'
+import AboutMePhoto from '../assets/aboutme.jpg'
 const About = () => {
   return (
     <>

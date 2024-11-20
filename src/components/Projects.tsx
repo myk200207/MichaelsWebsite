@@ -1,10 +1,10 @@
 import  {useState} from 'react'
-import UvaUTS from '@/assets/UvaUTS.png';
+import UvaUTS from '../assets/UvaUTS.png';
 import MyModal from './Modal.jsx'; 
-import congress from '@/assets/congress.jpg';
-import wordle from '@/assets/wordle.png'
-import catalog from '@/assets/catalog.png'
-import website from '@/assets/website.png'
+import congress from '../assets/congress.jpg';
+import wordle from '../assets/wordle.png'
+import catalog from '../assets/catalog.png'
+import website from '../assets/website.png'
 
 const Projects = () => {
   const [modalShow,setModalShow] = useState(false);
