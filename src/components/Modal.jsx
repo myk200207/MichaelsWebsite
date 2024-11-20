@@ -1,5 +1,5 @@
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import {Button} from 'react-bootstrap';
+import {Modal} from 'react-bootstrap';
 
 export default function MyModal(props) {
   return (
