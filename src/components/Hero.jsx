@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ProfilePic from '../assets/ProfilePic2.JPG'
+import ProfilePic from '@/assets/ProfilePic2.JPG'
 
 const Hero = () => {
     return (
