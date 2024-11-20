@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 import resume from '../assets/resume.pdf'
 
 const NavBar = () => {
