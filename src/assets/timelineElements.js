@@ -8,7 +8,7 @@ const timelineElements = [
       id: 1,
       title: "United States Air Force",
       location: "Omaha, Nebraska & Doha,Qatar",
-      description: "I served as a medic for 55th Medical Group and 367th Expeditionary Group",
+      description: "I was priviledged to serve as a medic for 55th Medical Group and 367th Expeditionary Group",
       buttonText: "Details",
       date: "2017 - 2021",
       icon: military,

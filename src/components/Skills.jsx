@@ -8,7 +8,7 @@ const Skills = () => {
         <div className="my-20">
           <h1 className="font-bold text-5xl">Skills</h1>
           <br/>
-          <div >Heer are a few of my skills</div>
+          <div >Here are some things I am good at</div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">

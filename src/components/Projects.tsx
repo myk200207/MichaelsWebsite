@@ -25,7 +25,7 @@ const Projects = () => {
         <div className="flex flex-col justify-center items-center">
           <h1 className="font-bold text-5xl">Projects</h1>
           <br />
-          <p>My journey</p>
+          <p>A few of my projects</p>
         </div>
 
         <div className="grid grid-cols-[auto] sm:grid-cols-[auto_auto] lg:grid-cols-[auto_auto_auto] justify-center items-center gap-1 relative">

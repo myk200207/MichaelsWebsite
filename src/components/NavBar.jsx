@@ -9,8 +9,8 @@ const NavBar = () => {
 
   return (
     <nav className="sticky top-0 text-white px-8 md:px-16 flex justify-center z-50">
-      <div className="w-screen py-3 flex justify-end md:justify-between items-center">
-        <div className="text-white text-2xl font-montserrat hidden md:inline">
+      <div className="w-screen py-3 flex justify-between items-center">
+        <div className="text-white text-2xl font-montserrat md:inline">
           Michael
         </div>
 
