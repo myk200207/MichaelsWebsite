@@ -43,7 +43,7 @@ const Contact = () => {
       );
   };
   return (
-    <section id="ContactPage" className=" text-white h-auto min-h-screen">
+    <section id="ContactPage" className=" text-white h-auto min-h-screen mb-10">
       <div className="container">
         <br />
         <br />

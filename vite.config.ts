@@ -5,15 +5,15 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
-  base: "./",  
+  base: "/MichaelsWebsite/",  
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
   build: {
-    rollupOptions: {
-      external: ['react-bootstrap']  
-    }
+    // rollupOptions: {
+    //   external: ['react-bootstrap']  
+    // }
   }
 })

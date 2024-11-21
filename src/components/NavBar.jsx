@@ -8,7 +8,7 @@ const NavBar = () => {
   }
 
   return (
-    <nav className="fixed top-0 text-white w-screen px-10 md:px-10 flex justify-center ">
+    <nav className="fixed top-0 text-white w-screen px-6 md:px-10 flex justify-center z-50 ">
       <div className="w-screen py-3 flex justify-between items-center">
         <div className="text-white text-2xl font-montserrat md:inline">
           Michael
@@ -42,7 +42,7 @@ const NavBar = () => {
         >
           Resume
         </a>
-        <div className="md:hidden flex flex-col items-center w-20 z-10 ">
+        <div className="md:hidden flex flex-col items-end pr-4  w-20 z-10 ">
           <button onClick={toggleMenu} className="text-white ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
